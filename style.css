@@ -1,0 +1,21 @@
+body {
+    margin: 30px;
+}
+img {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+.md1 {
+    background-color: #00BFFF;
+    padding: 4px;
+    
+
+}
+.md2 {
+    background-color: #F0FFF0;
+    text-align: left;
+}
+p {
+    margin: 50px;
+}
