@@ -1,5 +1,6 @@
 body {
     margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 img {
     width: 25px;
@@ -7,15 +8,37 @@ img {
     padding: 5px;
 }
 .md1 {
-    background-color: #00BFFF;
+    background: #00BFFF;
     padding: 4px;
-    
+    border: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 4px;
 
 }
 .md2 {
-    background-color: #F0FFF0;
+    background: #F0FFF0;
     text-align: left;
 }
-p {
-    margin: 50px;
+.apoio1 {
+    max-width: 50%;  
+    text-align: center;  
+}
+.especial1 {
+    text-align: right;
+    background: #e7e7e7;
+    width: 100%;    
+    
+}
+.especial2{
+    width: 100%;
+    background: #e7ebec;
+    display: flex;
+}
+.img2 {
+    width: 100px;
+    height: 100px;
+}
+.apoio2 {
+    text-align: center;
 }
