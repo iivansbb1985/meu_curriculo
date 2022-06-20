@@ -1,0 +1,106 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #7159c1;
+}
+body {
+    display: grid;
+    grid-template-columns: 17% 16.5% 16.5% 16.5% 16.5% 17%;
+    grid-template-rows: 23vh 7vh 20vh 7vh 20vh 23vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#um {
+    background: rgb(228, 225, 225);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+}
+#dois {
+    background: rgb(228, 225, 225);
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+    margin: 0;    
+}
+#tres {
+    background: rgb(16, 155, 235);
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    text-align: center;
+    padding: 4px;
+}
+#quatro {
+    background: rgb(180, 178, 178);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+#cinco {
+    background: rgb(180, 178, 178);
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+#seis {
+    background: greenyellow;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+#sete {
+    background: burlywood;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+#oito {
+    background: powderblue;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+#nove {
+    background: rosybrown;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+#dez {
+    background: sienna;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+#onze {
+    background: grey;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+img {
+    margin: 2px;
+    width: 20px;
+    height: 20px;
+}
+.img2 {
+    width: 23vh;
+    height: 23vh;
+}
+h1 {
+    text-decoration: underline;
+}
